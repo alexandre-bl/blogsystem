@@ -38,6 +38,6 @@ html {
     display: none;
 }
 
-#posts tr {
+#posts td {
     margin: auto;
 }
