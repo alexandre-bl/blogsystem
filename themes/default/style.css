@@ -20,15 +20,18 @@ html {
     background-color: #000;
     border-bottom: 1px solid #000;
 }
+
 #links ul {
     list-style: none;
     width: 800px;
     margin: 0 auto;
     padding: 0;
 }
+
 #links li {
     float: left;
 }
+
 #links li a {
     display: block;
     padding: 8px 15px;
@@ -37,9 +40,11 @@ html {
     color: #fff;
     border-right: 1px solid #000;
 }
+
 #links li:first-child a {
     border-left: 1px solid #000;
 }
+
 #links li a:hover {
     color: #f00;
     background-color: #000;
