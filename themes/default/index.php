@@ -3,11 +3,13 @@
 
     <head>
 
+        <title> <?php echo $config["title"]; ?> </title>
+
     </head>
 
     <body>
     
-    Test
+        
     
     </body>
 
