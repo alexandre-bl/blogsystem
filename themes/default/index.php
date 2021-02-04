@@ -26,6 +26,13 @@
 
         <p id="page_desc"> <?php echo $content["description"]; ?> </p>
     
+        <table if="posts">
+            <tr>
+                <th>Title</th>
+                <th>Date</th>
+            </tr>
+        </table>
+
     </body>
 
 </html>
