@@ -17,8 +17,8 @@ html {
     float: left;
     margin: 0 0 1em 0;
     padding: 0;
-    background-color: #f2f2f2;
-    border-bottom: 1px solid #ccc;
+    background-color: black;
+    border-bottom: 1px solid black;
 }
 #links ul {
     list-style: none;
@@ -35,10 +35,10 @@ html {
     text-decoration: none;
     font-weight: bold;
     color: #069;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid black;
 }
 #links li:first-child a {
-    border-left: 1px solid #ccc;
+    border-left: 1px solid black;
 }
 #links li a:hover {
     color: #c00;
