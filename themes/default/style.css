@@ -30,11 +30,11 @@ html {
     color: #999;
 }
 
-#table {
+#posts {
     width: 100%;
 }
 
-#table th {
+#posts th {
     float: left;
     width: 50%;
 }
