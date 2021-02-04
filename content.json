@@ -9,5 +9,7 @@
         { "label": "Sit", "url": "http://sit.com" },
         { "label": "Amet", "url": "http://amet.com" }
     ],
-    "posts": [{ "title": "Vivamus in lectus", "date": 360000000 }]
+    "posts": [
+        { "title": "Vivamus in lectus", "date": 360000000, "file": 0 }
+    ]
 }

@@ -31,6 +31,21 @@
                 <th>Post Title</th>
                 <th>Post Date</th>
             </tr>
+            <?php
+
+                foreach( $content["posts"] as $post ) {
+                    echo "<tr>";
+
+                    $title = $post["title"];
+                    $date = $post["date"];
+
+                    echo "<td>$title</td>";
+                    echo "<td>$date</td>";
+
+                    echo "</tr>";
+                }
+
+            ?>
         </table>
 
     </body>
