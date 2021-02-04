@@ -41,6 +41,6 @@ html {
     border-left: 1px solid black;
 }
 #links li a:hover {
-    color: #c00;
-    background-color: #fff;
+    color: #f00;
+    background-color: #000;
 }
