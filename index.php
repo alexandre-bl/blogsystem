@@ -5,6 +5,6 @@ $content = json_decode( $content, true );
 
 $theme_dir = "themes/".$content["theme"];
 
-require_once "themes/".$content["theme"]."/index.php";
+require_once $theme_dir."/index.php";
 
 ?>
