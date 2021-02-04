@@ -81,7 +81,7 @@
                 echo $filename;
                 $file = fopen($filename, "r");
                 echo fread($file,filesize($filename));
-                fclose($filename);
+                fclose($file);
             ?> </p>
 
         <?php } ?> 
