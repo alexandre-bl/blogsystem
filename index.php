@@ -4,9 +4,9 @@ require_once "config.php";
 
 $mysql = new mysqli($server, $user, $password);
 
-$mysql->query( " CREATE TABLE IF NOT EXISTS posts ( title TEXT, content TEXT, date INT ) " );
+$mysql->query(" CREATE TABLE IF NOT EXISTS posts ( title TEXT, content TEXT, date INT ) ");
 
-$posts = $mysql->query("SELECT * from posts");
+$posts = $mysql->query(" SELECT * from posts ");
 
 print_r( $posts );
 
