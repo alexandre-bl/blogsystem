@@ -1,49 +1,46 @@
-body, html {
-
+body,
+html {
     background-color: black;
     color: white;
 
     width: 900px;
     max-width: 100%;
     margin: auto;
-
 }
 
 #page_title {
-
     text-align: center;
-
 }
 
 #links {
     width: 100%;
-    height: 40px;
-    margin: 0;
-    padding: 0;
-
-}
-
-#links ul {
-
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-
-}
-
-#links li {
-
-    display: inline;
     float: left;
-    margin: 0;
+    margin: 0 0 1em 0;
     padding: 0;
-
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
 }
-
+#links ul {
+    list-style: none;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+#links li {
+    float: left;
+}
 #links li a {
-
     display: block;
-    padding: 8px;
-
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #069;
+    border-right: 1px solid #ccc;
+}
+#links li:first-child a {
+    border-left: 1px solid #ccc;
+}
+#links li a:hover {
+    color: #c00;
+    background-color: #fff;
 }
