@@ -2,7 +2,6 @@ body,
 html {
     background-color: #000;
     color: white;
-
     width: 900px;
     max-width: 100%;
     margin: auto;
@@ -46,6 +45,6 @@ html {
 }
 
 #links li a:hover {
-    color: #f00;
+    color: #ff0;
     background-color: #000;
 }
