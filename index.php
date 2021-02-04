@@ -10,7 +10,7 @@ $mysql->query( "
 
 $posts = $mysql->query("SELECT * from posts");
 
-print_r( $posts );
+print_r( "test" );
 
 require_once "theme/".$theme.".php";
 
