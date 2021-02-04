@@ -13,16 +13,16 @@
     
         <h1 id="page_title"> <?php echo $content["title"]; ?> </h1>
 
-        <div id="links"> <ul> <?php
+        <div id="links"> <?php
             foreach( $content["links"] as $link ) {
 
                 $label = $link["label"];
                 $url   = $link["url"];
 
-                echo "<li><a href='$url'>$label</a></li>";
+                echo "<a href='$url'>$label</a>";
 
             }
-        ?> </ul> </div>
+        ?> </div>
 
         <p id="page_desc"> <?php echo $content["description"]; ?> </p>
     
