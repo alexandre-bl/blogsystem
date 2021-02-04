@@ -1,17 +1,10 @@
 <?php
 
-require_once "config.php";
+$posts = file_get_contents( "posts.json" );
+$posts = json_decode( $posts, true );
 
-$mysql = new mysqli($server, $user, $password, $database);
+print_r( $posts );
 
-$table = $mysql->query(" CREATE TABLE IF NOT EXISTS posts ( title TEXT, content TEXT, date INT ) ");
-
-$posts = $mysql->query(" SELECT * from posts ");
-
-print_r( $mysql );
-
-require_once "themes/".$theme.".php";
-
-$mysql->close();
+require_once "themes/default.php";
 
 ?>
