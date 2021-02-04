@@ -26,7 +26,7 @@
 
         <p id="page_desc"> <?php echo $content["description"]; ?> </p>
     
-        <table if="posts">
+        <table id="posts">
             <tr>
                 <th>Title</th>
                 <th>Date</th>
