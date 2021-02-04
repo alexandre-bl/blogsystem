@@ -13,7 +13,7 @@
     
         <h1 id="page_title"> <?php echo $content["title"]; ?> </h1>
 
-        <div id="links"> <ul> <?php
+        <ul id="links"> <?php
         
             foreach( $content["links"] as $link ) {
 
@@ -24,7 +24,7 @@
 
             }
 
-        ?> </ul> </div>
+        ?> </ul>
 
         <p id="page_desc"> <?php echo $content["description"]; ?> </p>
     
