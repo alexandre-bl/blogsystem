@@ -3,11 +3,11 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet molestie leo, eu consequat felis tempus vel. Quisque dignissim dignissim augue sed venenatis. Nunc tincidunt feugiat commodo. Pellentesque vehicula tellus vitae lacus luctus, quis sodales odio faucibus. Maecenas in lorem lacus. Phasellus commodo purus in nisi pulvinar fringilla. Pellentesque orci.",
     "theme": "default",
     "links": [
-        { "label": "Lorem", "url": "lorem.com" },
-        { "label": "Ipsum", "url": "ipsum.com" },
-        { "label": "Dolor", "url": "dolor.com" },
-        { "label": "Sit", "url": "sit.com" },
-        { "label": "Amet", "url": "amet.com" }
+        { "label": "Lorem", "url": "http://lorem.com" },
+        { "label": "Ipsum", "url": "http://ipsum.com" },
+        { "label": "Dolor", "url": "http://dolor.com" },
+        { "label": "Sit", "url": "http://sit.com" },
+        { "label": "Amet", "url": "http://amet.com" }
     ],
     "posts": []
 }
