@@ -45,7 +45,7 @@
                         $date = $post["date"];
                         $url = "/?p=".$post["file"];
 
-                        echo "<td>$title</td>";
+                        echo "<td><a href='$url'>$title</a></td>";
                         echo "<td>$date</td>";
 
                         echo "</tr>";
