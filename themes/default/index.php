@@ -78,8 +78,8 @@
 
             <p id="page_desc"> <?php
                 $filename = "$root_dir/uploads/posts/".$_GET["p"].".md";
-                echo $filename;
                 $file = fopen($filename, "r");
+                print_r( $file );
                 echo fread($file,filesize($filename));
                 fclose($file);
             ?> </p>
