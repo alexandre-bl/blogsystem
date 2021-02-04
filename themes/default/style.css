@@ -29,3 +29,12 @@ html {
 #links a:hover {
     color: #999;
 }
+
+#table {
+    width: 100%;
+}
+
+#table th {
+    float: left;
+    width: 50%;
+}
