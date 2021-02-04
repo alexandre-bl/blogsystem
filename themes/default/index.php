@@ -76,9 +76,12 @@
                 }
             ?> </div>
 
-            <?php print_r( file_get_contents( "$root_dir/uploads/posts/".$_GET["p"].".md" ) ); ?>
-
-            <p id="page_desc"> <?php echo file_get_contents( "$root_dir/uploads/posts/".$_GET["p"].".md" ); ?> </p>
+            <p id="page_desc"> <?php
+                $filename = "$root_dir/uploads/posts/".$_GET["p"].".md";
+                $file = fopen($filename, "r");
+                echo fread($myfile,filesize($filename));
+                fclose($filename);
+            ?> </p>
 
         <?php } ?> 
 
