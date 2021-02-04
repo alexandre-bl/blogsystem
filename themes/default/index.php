@@ -11,7 +11,7 @@
 
     <body>
     
-        <h1> <?php echo $config["title"]; ?> </h1>
+        <h1 id="page_title"> <?php echo $config["title"]; ?> </h1>
     
     </body>
 
