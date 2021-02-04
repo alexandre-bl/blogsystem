@@ -40,3 +40,7 @@ a:hover {
 #posts th {
     display: none;
 }
+
+#post td {
+    text-align: center;
+}
