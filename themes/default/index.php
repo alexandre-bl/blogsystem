@@ -28,8 +28,8 @@
     
         <table id="posts">
             <tr>
-                <th>Title</th>
-                <th>Date</th>
+                <th>Post Title</th>
+                <th>Post Date</th>
             </tr>
         </table>
 
