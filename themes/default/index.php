@@ -11,7 +11,7 @@
 
     <body>
     
-        <?php if( empty( $_GET["p"] ) ) { ?>
+        <?php if( !isset( $_GET["p"] ) ) { ?>
 
             <h1 id="page_title"> <?php echo $content["title"]; ?> </h1>
 
