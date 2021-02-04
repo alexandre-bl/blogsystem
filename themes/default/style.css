@@ -37,3 +37,7 @@ html {
 #posts th {
     display: none;
 }
+
+#posts tr {
+    margin: auto;
+}
