@@ -2,7 +2,7 @@
 
 require_once "config.php";
 
-$mysql = new mysqli($server, $user, $password);
+$mysql = new mysqli($server, $user, $password, $database);
 
 $table = $mysql->query(" CREATE TABLE IF NOT EXISTS posts ( title TEXT, content TEXT, date INT ) ");
 
