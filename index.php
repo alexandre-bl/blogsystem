@@ -8,7 +8,7 @@ $table = $mysql->query(" CREATE TABLE IF NOT EXISTS posts ( title TEXT, content 
 
 $posts = $mysql->query(" SELECT * from posts ");
 
-print_r( $table );
+print_r( $mysql );
 
 require_once "themes/".$theme.".php";
 
