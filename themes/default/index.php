@@ -76,9 +76,7 @@
                 }
             ?> </div>
 
-            <?php echo "uploads/posts/".$_GET["p"].".md"; ?>
-
-            <p id="page_desc"> <?php echo file_get_contents( "uploads/posts/".$_GET["p"].".md" ); ?> </p>
+            <p id="page_desc"> <?php echo file_get_contents( "$root_dir/uploads/posts/".$_GET["p"].".md" ); ?> </p>
 
         <?php } ?> 
 
