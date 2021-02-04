@@ -1,13 +1,10 @@
 <?php
 
-$posts = file_get_contents( "posts.json" );
-$posts = json_decode( $posts, true );
+$content = file_get_contents( "posts.json" );
+$content = json_decode( $content, true );
 
-$config = file_get_contents( "config.json" );
-$config = json_decode( $config, true );
+$theme_dir = "themes/".$content["theme"];
 
-$theme_dir = "themes/".$config["theme"];
-
-require_once "themes/".$config["theme"]."/index.php";
+require_once "themes/".$content["theme"]."/index.php";
 
 ?>
