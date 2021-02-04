@@ -12,6 +12,8 @@
     <body>
     
         <h1 id="page_title"> <?php echo $config["title"]; ?> </h1>
+
+        <p id="page_desc"> <?php echo $config["description"]; ?> </p>
     
     </body>
 
