@@ -14,6 +14,9 @@
         <h1 id="page_title"> <?php echo $content["title"]; ?> </h1>
 
         <div id="links"> <?php
+
+            echo "<a href='/'>Home</a>";
+
             foreach( $content["links"] as $link ) {
 
                 $label = $link["label"];
