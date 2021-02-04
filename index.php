@@ -5,8 +5,8 @@
 
     $theme_dir = "themes/".$content["theme"];
 
-    require_once $theme_dir."/index.php";
+    echo $theme_dir;
 
-    echo "test";
+    require_once $theme_dir."/index.php";
 
 ?>
