@@ -77,7 +77,7 @@
             ?> </div>
 
             <p id="page_desc"> <?php
-                echo file_get_contents( "uploads/posts/0.md" );
+                echo file_get_contents( "$root_dir/uploads/posts/0.md" );
             ?> </p>
 
         <?php } ?> 
