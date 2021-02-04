@@ -1,7 +1,6 @@
 <?php
 
 require_once "config.php";
-echo $server;
 
 $mysql = new mysqli($server, $user, $password);
 
@@ -13,7 +12,7 @@ $posts = $mysql->query("SELECT * from posts");
 
 print_r( $posts );
 
-require_once "theme/".$theme.".php";
+require_once "themes/".$theme.".php";
 
 $mysql->close();
 
