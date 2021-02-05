@@ -19,6 +19,8 @@ $content = json_decode( $content, true );
 
         <div id="left-bar"></div>
 
+        <div id="main-area"></div>
+
     </body>
 
 </html>
