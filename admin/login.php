@@ -17,7 +17,7 @@ if( isset( $_POST["user"] ) ) {
         if( $users[$_POST["user"]] == $_POST["password"] ) {
 
             setcookie( "user", "alex" );
-            header('Location: /admin/', true, 303);
+            header('Location: .', true, 303);
             die();
 
         } else {
