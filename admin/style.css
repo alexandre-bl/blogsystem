@@ -45,11 +45,11 @@ body, html {
 
     position: absolute;
     left: 50%;
-    top: 5px;
+    top: 0;
     transform: translate(-50%, 0);
     font-size: 24px;
     color: var(--red);
-    margin: 0;
+    margin: 15px;
     padding: 0;
 
 }
