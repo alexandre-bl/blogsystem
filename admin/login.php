@@ -18,6 +18,9 @@ $content = json_decode( $content, true );
     </head>
 
     <body>
+
+        <div id="login-box"></div>
+
     </body>
 
 </html>
