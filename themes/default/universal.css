@@ -11,7 +11,6 @@
 }
 
 input {
-    border: 2px solid var(--fg);
-    background-color: var(--bg);
-    color: var(--fg);
+    background-color: var(--fg);
+    color: var(--bg);
 }
