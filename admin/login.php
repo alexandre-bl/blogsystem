@@ -12,10 +12,9 @@ if( isset( $_POST["user"] ) ) {
 
         $returning = true;
 
+        echo "test";
+
     } else {
-        
-        echo $users[$_POST["user"]];
-        echo $_POST["password"];
 
         if( $users[$_POST["user"]] == $_POST["password"] ) {
 
