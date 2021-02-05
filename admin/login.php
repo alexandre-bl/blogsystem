@@ -11,7 +11,7 @@ if( isset( $_POST["user"] ) ) {
     print_r( $_POST );
     print_r( $users );
 
-    if( !isset( $users[$_POST["user"]] ) ) {
+    if( empty( $users[ $_POST["user"] ] ) ) {
 
         $returning = true;
 
