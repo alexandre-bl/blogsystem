@@ -17,7 +17,9 @@
 
                 if( array_key_exists( $_POST["user"], $users ) ) {
 
-                    if( $users[$_POST["user"]] == $_POST["password"] ) {
+                    $user = strval( $_POST["user"] );
+
+                    if( $users[$user] == $_POST["password"] ) {
 
                         setcookie( "user", $_POST["user"] );
                         echo "<script>location.href='/admin/';</script>";
