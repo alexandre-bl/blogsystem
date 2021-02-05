@@ -8,12 +8,15 @@ $returning = false;
 
 if( isset( $_POST["user"] ) ) {
 
+    echo $_POST["user"];
+    echo $_POST["password"];
+
     if( !isset( $users[$_POST["user"]] ) ) {
 
         $returning = true;
 
     } else {
-
+        
         if( $users[$_POST["user"]] == $_POST["password"] ) {
 
             setcookie( "user", "alex" );
