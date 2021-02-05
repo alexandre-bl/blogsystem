@@ -6,6 +6,8 @@ $content = file_get_contents( "../content.json" );
 $content = json_decode( $content, true );
 $returning = false;
 
+echo "test";
+
 if( isset( $_POST["user"] ) ) {
 
     if( !isset( $users[$_POST["user"]] ) ) {
