@@ -15,13 +15,21 @@ if( isset( $_POST["user"] ) ) {
 
     echo "test";
 
-    if( $users[$_POST["user"]] == $_POST["password"] ) {
+    if( array_key_exists( $_POST["user"], $users ) ) {
 
-        echo "test2";
+        if( $users[$_POST["user"]] == $_POST["password"] ) {
 
-        setcookie( "user", "alex" );
-        header('Location: /admin/', true, 303);
-        die();
+            echo "test2";
+
+            setcookie( "user", "alex" );
+            header('Location: /admin/', true, 303);
+            die();
+
+        } else {
+
+            $returning = true;
+
+        }
 
     } else {
 
