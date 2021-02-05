@@ -18,8 +18,9 @@ body, html {
     border: 2px solid var(--fg);
 }
 
-#login-box input {
-
-    margin: auto;
-
+#login-box #user {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
