@@ -23,7 +23,8 @@ $content = json_decode( $content, true );
             <label for="user">User:</label><br>
             <input type="text" id="user" name="user"><br>
             <label for="password">Password:</label><br>
-            <input type="text" id="password" name="password">
+            <input type="password" id="password" name="password">
+            <input type="submit" value="Login">
         </form>
 
     </body>
