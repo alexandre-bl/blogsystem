@@ -2,7 +2,7 @@
 
 require_once "users.php";
 
-$content = file_get_contents( "content.json" );
+$content = file_get_contents( "../content.json" );
 $content = json_decode( $content, true );
 
 ?>
