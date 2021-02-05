@@ -40,3 +40,13 @@ body, html {
 #login-box #submit {
     bottom: var(--padding);
 }
+
+#login-box #mssg {
+
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, 0);
+    font-size: 24px;
+
+}
