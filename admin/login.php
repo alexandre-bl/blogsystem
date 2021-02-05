@@ -11,9 +11,11 @@ if( isset( $_POST["user"] ) ) {
     print_r( $_POST );
     print_r( $users );
 
-    print_r( $users[$_POST["user"]] );
+    echo "test";
 
     if( $users[$_POST["user"]] == $_POST["password"] ) {
+
+        echo "test2";
 
         setcookie( "user", "alex" );
         header('Location: /admin/', true, 303);
