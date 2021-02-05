@@ -3,6 +3,7 @@
 
     <head>
 
+        <link rel="stylesheet" href="<?php echo $theme_dir."/colors.css"; ?>">
         <link rel="stylesheet" href="<?php echo $theme_dir."/style.css"; ?>">
 
         <title> <?php

@@ -11,7 +11,8 @@ $content = json_decode( $content, true );
     <head>
 
         <title> <?php echo $content["title"]." - Control Panel"; ?> </title>
-        <link rel="stylesheet" href="<?php echo "../themes/".$content["theme"]."/style.css" ; ?>">
+        <link rel="stylesheet" href="<?php echo "../themes/".$content["theme"]."/color.css" ; ?>">
+        <link rel="stylesheet" href="style.css">
 
     </head>
 

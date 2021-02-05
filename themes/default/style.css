@@ -1,7 +1,7 @@
 body,
 html {
-    background-color: #282a36;
-    color: #f8f8f2;
+    background-color: var(--bg);
+    color: var(--fg);
     width: 900px;
     max-width: 100%;
     margin: auto;
@@ -11,11 +11,11 @@ a {
     padding: 8px 15px;
     text-decoration: underline;
     font-weight: bold;
-    color: #f8f8f2;
+    color: var(--fg);
 }
 
 a:hover {
-    color: #8be9fd;
+    color: var(--cyan);
 }
 
 #page_title {
