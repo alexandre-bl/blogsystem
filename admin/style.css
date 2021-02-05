@@ -51,5 +51,6 @@ body, html {
     color: var(--red);
     margin: 15px;
     padding: 0;
+    text-align: center;
 
 }
