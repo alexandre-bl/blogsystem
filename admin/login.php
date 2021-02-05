@@ -1,6 +1,6 @@
 <?php
 
-error_reporting( 2 );
+error_reporting( 8 );
 
 require_once "users.php";
 
