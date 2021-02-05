@@ -1,4 +1,4 @@
 <?php
-$users = json_encode(' [
+$users = json_encode('{
     "Lorem": "impsum"
-] ');
+}');
