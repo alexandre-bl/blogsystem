@@ -6,10 +6,9 @@
         <link rel="stylesheet" href="<?php echo $theme_dir."/style.css"; ?>">
 
         <title> <?php
-            if( !isset( $_GET["p"] ) ) {
-                echo $content["title"];
-            } else {
-                echo $content["posts"][$_GET["p"]]["title"];
+            echo $content["title"];
+            if( isset( $_GET["p"] ) ) {
+                echo " - ".$content["posts"][$_GET["p"]]["title"];
             }
         ?> </title>
 
