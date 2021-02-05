@@ -8,7 +8,7 @@ $returning = false;
 
 if( isset( $_POST["user"] ) ) {
 
-    echo $_POST["user"];
+    echo $users[$_POST["user"]];
     echo $_POST["password"];
 
     if( !isset( $users[$_POST["user"]] ) ) {
