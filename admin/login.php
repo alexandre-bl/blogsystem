@@ -20,10 +20,8 @@ $content = json_decode( $content, true );
     <body>
 
         <form id="login-box">
-            <label for="user">User:</label><br>
-            <input type="text" id="user" name="user"><br>
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password">
+            <input type="text" id="user" name="user" value="User"><br>
+            <input type="password" id="password" name="password" value="Password">
             <input type="submit" id="submit" value="Login">
         </form>
 
