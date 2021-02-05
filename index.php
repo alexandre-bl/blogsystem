@@ -1,6 +1,6 @@
 <?php
 
-    require_once "libs/markdown/Michelf/MarkdownExtra.inc.php";
+    require_once "libs/markdown.php";
 
     $content = file_get_contents( "content.json" );
     $content = json_decode( $content, true );
