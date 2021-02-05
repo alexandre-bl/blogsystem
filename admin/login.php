@@ -11,7 +11,7 @@ if( isset( $_POST["user"] ) ) {
     print_r( $_POST );
     print_r( $users );
 
-    echo !isset( $users[$_POST["user"]] );
+    print_r( !isset( $users[$_POST["user"]] ) );
 
     if( !isset( $users[$_POST["user"]] ) ) {
 
