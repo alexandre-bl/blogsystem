@@ -11,6 +11,7 @@
 }
 
 input {
+    border: 0;
     background-color: var(--fg);
     color: var(--bg);
 }
