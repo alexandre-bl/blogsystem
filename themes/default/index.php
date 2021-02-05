@@ -5,7 +5,13 @@
 
         <link rel="stylesheet" href="<?php echo $theme_dir."/style.css"; ?>">
 
-        <title> <?php echo $content["title"]; ?> </title>
+        <title> <?php
+            if( !isset( $_GET["p"] ) ) {
+                echo $content["title"];
+            } else {
+                echo $content["posts"][$_GET["p"]]["title"];
+            }
+        ?> </title>
 
     </head>
 
@@ -29,7 +35,7 @@
                 }
             ?> </div>
 
-            <p id="page_desc"> <?php echo $content["description"]; ?> </p>
+            <p id="page_desc"> <?php echo Markdown( $content["description"] ); ?> </p>
         
             <table id="posts">
                 <tr>
