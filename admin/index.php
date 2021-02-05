@@ -15,6 +15,10 @@ $content = json_decode( $content, true );
 
     </head>
 
-    <body></body>
+    <body>
+
+        <div id="left-bar"></div>
+
+    </body>
 
 </html>
