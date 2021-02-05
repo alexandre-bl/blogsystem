@@ -9,3 +9,9 @@
     --cyan: #8be9fd;
     --white: #ffffff:
 }
+
+input {
+    border: 2px solid var(--fg);
+    background-color: var(--bg);
+    color: var(--fg);
+}
