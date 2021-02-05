@@ -8,15 +8,17 @@ $returning = false;
 
 if( isset( $_POST["user"] ) ) {
 
-    echo "test";
+    echo "test1";
 
     if( !isset( $users[$_POST["user"]] ) ) {
 
         $returning = true;
 
-        echo "test";
+        echo "test2";
 
     } else {
+
+        echo "test3";
 
         if( $users[$_POST["user"]] == $_POST["password"] ) {
 
