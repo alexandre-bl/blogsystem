@@ -77,7 +77,7 @@
             ?> </div>
 
             <p id="page_desc"> <?php
-                echo file_get_contents( "$root_dir/uploads/posts/".$_GET["p"].".md" );
+                echo Markdown::defaultTransform( file_get_contents( "$root_dir/uploads/posts/".$_GET["p"].".md" ) );
             ?> </p>
 
         <?php } ?> 
