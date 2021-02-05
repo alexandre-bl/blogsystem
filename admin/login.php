@@ -10,16 +10,9 @@ $returning = false;
 
 if( isset( $_POST["user"] ) ) {
 
-    print_r( $_POST );
-    print_r( $users );
-
-    echo "test";
-
     if( array_key_exists( $_POST["user"], $users ) ) {
 
         if( $users[$_POST["user"]] == $_POST["password"] ) {
-
-            echo "test2";
 
             setcookie( "user", "alex" );
             header('Location: /admin/', true, 303);
