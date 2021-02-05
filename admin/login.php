@@ -12,9 +12,9 @@ if( isset( $_POST["user"] ) ) {
 
     if( array_key_exists( $_POST["user"], $users ) ) {
 
-        if( $users[$_POST["user"]] == $_POST["password"] ) {
+        echo "password id correct";
 
-            echo "password id correct";
+        if( $users[$_POST["user"]] == $_POST["password"] ) {
 
             setcookie( "user", "alex" );
             header('Location: /admin/', true, 303);
