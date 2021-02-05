@@ -48,5 +48,6 @@ body, html {
     top: 5px;
     transform: translate(-50%, 0);
     font-size: 24px;
+    color: var(--red);
 
 }
