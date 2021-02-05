@@ -18,23 +18,21 @@ body, html {
     border: 2px solid var(--fg);
 }
 
-#login-box #user {
+#login-box input {
     position: absolute;
-    top: 10%;
     left: 50%;
     transform: translate(-50%, 0);
+    width: 90%;
+}
+
+#login-box #user {
+    top: 10%;
 }
 
 #login-box #password {
-    position: absolute;
     top: 20%;
-    left: 50%;
-    transform: translate(-50%, 0);
 }
 
 #login-box #submit {
-    position: absolute;
     bottom: 20%;
-    left: 50%;
-    transform: translate(-50%, 0);
 }
