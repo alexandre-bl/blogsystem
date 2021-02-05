@@ -1,5 +1,3 @@
-<?php $parser = new MarkdownExtra; ?>
-
 <!DOCTYPE html>
 <html>
 
@@ -79,7 +77,7 @@
             ?> </div>
 
             <p id="page_desc"> <?php
-                echo $parser->transform( file_get_contents( "$root_dir/uploads/posts/".$_GET["p"].".md" ) );
+                echo MarkdownExtra::defaultTransform( file_get_contents( "$root_dir/uploads/posts/".$_GET["p"].".md" ) );
             ?> </p>
 
         <?php } ?> 
