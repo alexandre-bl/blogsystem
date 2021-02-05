@@ -49,5 +49,7 @@ body, html {
     transform: translate(-50%, 0);
     font-size: 24px;
     color: var(--red);
+    margin: 0;
+    padding: 0;
 
 }
