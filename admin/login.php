@@ -13,27 +13,15 @@ if( isset( $_POST["user"] ) ) {
 
     print_r( $users[$_POST["user"]] );
 
-    if( !isset( $users[$_POST["user"]] ) ) {
+    if( $users[$_POST["user"]] == $_POST["password"] ) {
 
-        $returning = true;
-
-        echo "test2";
+        setcookie( "user", "alex" );
+        header('Location: /admin/', true, 303);
+        die();
 
     } else {
 
-        echo "test3";
-
-        if( $users[$_POST["user"]] == $_POST["password"] ) {
-
-            setcookie( "user", "alex" );
-            header('Location: /admin/', true, 303);
-            die();
-
-        } else {
-
-            $returning = true;
-
-        }
+        $returning = true;
 
     }
 
