@@ -50,7 +50,7 @@ body, html {
     font-size: 24px;
     color: var(--red);
     margin: 15px;
-    padding: 0;
     text-align: center;
+    width: 100%;
 
 }

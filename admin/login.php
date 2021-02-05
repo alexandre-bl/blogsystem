@@ -47,7 +47,7 @@ if( isset( $_POST["user"] ) ) {
         <form id="login-box" action="/admin/login.php" method="post">
 
                 <?php if( $returning ) { ?>
-                    <p id="mssg">Wrong username or password</p>
+                    <div id="mssg">Wrong username or password</div>
                 <?php } ?>
                 
                 <input type="text" id="user" name="user" placeholder="User">
