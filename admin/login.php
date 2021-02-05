@@ -21,7 +21,7 @@ $content = json_decode( $content, true );
 
         <form id="login-box">
             <input type="text" id="user" name="user" value="User"><br>
-            <input type="password" id="password" name="password" value="Password">
+            <input type="password" id="password" name="password" value="Password"><br>
             <input type="submit" id="submit" value="Login">
         </form>
 
