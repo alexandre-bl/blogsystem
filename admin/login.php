@@ -1,5 +1,7 @@
 <?php
 
+error_reporting( 2 );
+
 require_once "users.php";
 
 $content = file_get_contents( "../content.json" );
