@@ -44,9 +44,8 @@ body, html {
 #login-box #mssg {
 
     position: absolute;
-    left: 50%;
+    left: 0;
     top: 0;
-    transform: translate(-50%, 0);
     font-size: 24px;
     color: var(--red);
     margin: 15px;
