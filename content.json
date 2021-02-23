@@ -3,11 +3,8 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet molestie leo, eu consequat felis tempus vel. Quisque dignissim dignissim augue sed venenatis. Nunc tincidunt feugiat commodo. Pellentesque vehicula tellus vitae lacus luctus, quis sodales odio faucibus. Maecenas in lorem lacus. Phasellus commodo purus in nisi pulvinar fringilla. Pellentesque orci.",
     "theme": "default",
     "links": [
-        { "label": "Lorem", "url": "" },
-        { "label": "Ipsum", "url": "" },
-        { "label": "Dolor", "url": "" },
-        { "label": "Sit", "url": "" },
-        { "label": "Amet", "url": "" }
+        { "label": "Github", "url": "https://github.com/alexandre-bl" },
+        { "label": "Itch.io", "url": "https://alexandrebl.itch.io/" }
     ],
     "posts": [
         { "title": "Vivamus in lectus", "date": "1234/12/12 12:34", "file": 0 }
