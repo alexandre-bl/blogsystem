@@ -82,7 +82,7 @@
                 }
             ?> </div>
 
-            <div id="page_desc"> <?php
+            <div id="page_cont"> <?php
                 echo Markdown( file_get_contents( "$root_dir/uploads/posts/".$_GET["p"].".md" ) );
             ?> </div>
 
