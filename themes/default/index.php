@@ -35,7 +35,7 @@
                 }
             ?> </div>
 
-            <p id="page_desc"> <?php echo Markdown( $content["description"] ); ?> </p>
+            <div id="page_desc"> <?php echo Markdown( $content["description"] ); ?> </div>
         
             <table id="posts">
                 <tr>
