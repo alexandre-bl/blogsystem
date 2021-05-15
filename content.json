@@ -4,7 +4,8 @@
     "theme": "default",
     "links": [
         { "label": "Github", "url": "https://github.com/alexandre-bl" },
-        { "label": "Itch.io", "url": "https://alexandrebl.itch.io/" }
+        { "label": "Itch.io", "url": "https://alexandrebl.itch.io/" },
+        { "label": "Fiverr", "url": "https://www.fiverr.com/alexandre_bl" }
     ],
     "posts": [
     ]
